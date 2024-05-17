@@ -5,23 +5,25 @@
     "main": "index.js",
     "type": "module",
     "scripts": {
-      "start": "node index.js",
-      "dev": "nodemon index.js"
+        "start": "node index.js",
+        "dev": "nodemon index.js"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Brasero/FSD46-node-s1.git"
+        "type": "git",
+        "url": "git+https://github.com/Brasero/FSD46-node-s1.git"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/Brasero/FSD46-node-s1/issues"
+        "url": "https://github.com/Brasero/FSD46-node-s1/issues"
     },
     "homepage": "https://github.com/Brasero/FSD46-node-s1#readme",
-    "devDependencies": {
-      "dotenv": "^16.4.5"
-    },
     "dependencies": {
-      "pug": "^3.0.2"
+        "body-parser": "^1.20.2",
+        "dayjs": "^1.11.11",
+        "dotenv": "^16.4.5",
+        "ejs": "^3.1.10",
+        "express": "^4.19.2",
+        "pug": "^3.0.2"
     }
-  }
+}
